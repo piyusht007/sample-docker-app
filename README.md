@@ -6,7 +6,7 @@ This application executes following phases as part of maven verify:
 
  ![Application build lifecycle](./maven-phases.png)
  
- **Note:** This application currently usres docker hub as docker registry. We can also use private registries such as AWS ECR to push docker images.
+ **Note:** This application currently uses docker hub as docker registry. We can also use private registries such as AWS ECR to push docker images.
  
  To use AWS ECR, make following changes in the **pom.xml**:
  
